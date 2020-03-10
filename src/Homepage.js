@@ -11,19 +11,26 @@ const Info = styled.div`
   text-align: center;
 `;
 
-const Image = styled.li`
+const ImageContainer = styled.li`
   display: flex;
   justify-content: center;
   padding-top: 30px;
   margin-bottom: 1rem;
 `;
 
+const Image = styled.img`
+  width: 800px;
+  @media (max-width: 480px) {
+    width: 200px;
+  }
+`;
+
 function App() {
   return (
     <div>
-      <Image>
-        <img src={truck} width="800px" alt="sign" />
-      </Image>
+      <ImageContainer>
+        <Image src={truck} alt="sign" />
+      </ImageContainer>
 
       <Info>Stop by, text or call!</Info>
       <Info>Tannir 740-343-5865</Info>

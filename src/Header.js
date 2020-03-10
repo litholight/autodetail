@@ -15,14 +15,20 @@ const Container = styled.div`
 
 const Brand = styled.div`
   padding: 2rem;
+  display: flex;
+  justify-content: center;
 `;
 
 const Heading = styled.div`
   color: lightblue;
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    width: 200px;
+  }
 `;
 
 const HR = styled.hr`
-  border: 4px solid darkred;
+  border: 3px solid darkred;
   width: 70%;
   margin: 0px auto;
 `;
@@ -30,29 +36,31 @@ const HR = styled.hr`
 const UL = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
   font-size: 1.5rem;
   color: grey;
   list-style-type: none;
   margin: 0.5rem;
-  &:hover {
-    color: lightblue;
-  }
 `;
 
 const LI = styled.div`
-  color: grey;
-  &:hover {
-    color: lightblue;
-    cursor: pointer;
-  }
+  /* display: flex;
+  align-items: center; */
+  display: block;
 `;
 
 const NavItem = styled(Link)`
   text-decoration: none;
+
   &:hover {
     color: darkred;
     cursor: pointer;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    width: 200px;
   }
 `;
 
@@ -60,8 +68,7 @@ const Header = () => {
   return (
     <Container>
       <Brand>
-        <Heading>STEVE & TANNER'S</Heading>
-        <Heading>COMPLETE AUTO DETAILING</Heading>
+        <Heading>STEVE & TANNER'S COMPLETE AUTO DETAILING</Heading>
       </Brand>
 
       <HR />
