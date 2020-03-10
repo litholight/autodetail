@@ -1,17 +1,31 @@
-import React from 'react'
-import arrowsign from './arrowsign.svg'
-import logo from './stevelogo.JPG'
-import styled from 'styled-components'
+import React from "react";
+import { Link } from "react-router-dom";
+
+// import arrowsign from "./arrowsign.svg";
+import styled from "styled-components";
 
 const Container = styled.div`
   color: lightblue;
   font-size: 2rem;
   font-weight: bold;
-  padding: 1rem;
   text-align: center;
   width: 100%;
-  border-bottom: 4px solid lightblue;
-`
+  border-bottom: 6px solid darkred;
+`;
+
+const Brand = styled.div`
+  padding: 2rem;
+`;
+
+const Heading = styled.div`
+  color: lightblue;
+`;
+
+const HR = styled.hr`
+  border: 4px solid darkred;
+  width: 70%;
+  margin: 0px auto;
+`;
 
 const UL = styled.div`
   display: flex;
@@ -24,7 +38,7 @@ const UL = styled.div`
   &:hover {
     color: lightblue;
   }
-`
+`;
 
 const LI = styled.div`
   color: grey;
@@ -32,29 +46,42 @@ const LI = styled.div`
     color: lightblue;
     cursor: pointer;
   }
-`
+`;
+
+const NavItem = styled(Link)`
+  text-decoration: none;
+  &:hover {
+    color: darkred;
+    cursor: pointer;
+  }
+`;
 
 const Header = () => {
   return (
     <Container>
-      <div>Steve & Tannir's</div>
-      <img src={arrowsign} width='400px' alt='sign' />
+      <Brand>
+        <Heading>STEVE & TANNER'S</Heading>
+        <Heading>COMPLETE AUTO DETAILING</Heading>
+      </Brand>
+
+      <HR />
+      {/* <img src={arrowsign} width="400px" alt="sign" /> */}
 
       <nav>
         <UL>
           <LI>
-            <a href='/'>HOME</a>
+            <NavItem to="/">HOME</NavItem>
           </LI>
           <LI>
-            <a href='/about'>ABOUT US</a>
+            <NavItem to="/about">ABOUT US</NavItem>
           </LI>
           <LI>
-            <a href='/services'>SERVICES</a>
+            <NavItem to="/services">SERVICES</NavItem>
           </LI>
         </UL>
       </nav>
     </Container>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
