@@ -1,9 +1,9 @@
-import React from "react";
-import Header from "./Header";
-import "./App.css";
-import styled from "styled-components";
+import React from 'react'
+import Header from './Header'
+import './App.css'
+import styled from 'styled-components'
 
-import truck from "./truck.jpg";
+import truck from './truck.jpg'
 
 const Section = styled.div`
   color: lightblue;
@@ -11,33 +11,33 @@ const Section = styled.div`
   font-weight: bold;
   padding: 1rem;
   text-align: center;
-`;
+`
 
 const Item = styled.li`
   color: lightblue;
   font-size: 1rem;
   text-align: center;
-`;
+`
 
 const Info = styled.div`
   color: white;
   font-size: 1rem;
   text-align: center;
-`;
+`
 
 const Image = styled.li`
   display: flex;
   justify-content: center;
-  padding-top: 240px;
+  padding-top: 20px;
   margin-bottom: 1rem;
-`;
+`
 
 function App() {
   return (
     <div>
       <Header />
       <Image>
-        <img src={truck} width="800px" alt="sign" />
+        <img src={truck} width='800px' alt='sign' />
       </Image>
       {/* <Section>Services Offered</Section>
       <Section>Full Service Wash</Section>
@@ -68,7 +68,7 @@ function App() {
       <Info>Available 9-4 Monday thru Thursday</Info>
       <Info>We use Malco - The Choice of Profressionals</Info>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,7 +1,7 @@
-import React from "react";
-import arrowsign from "./arrowsign.svg";
-import logo from "./stevelogo.JPG";
-import styled from "styled-components";
+import React from 'react'
+import arrowsign from './arrowsign.svg'
+import logo from './stevelogo.JPG'
+import styled from 'styled-components'
 
 const Container = styled.div`
   color: lightblue;
@@ -9,10 +9,9 @@ const Container = styled.div`
   font-weight: bold;
   padding: 1rem;
   text-align: center;
-  position: fixed;
   width: 100%;
   border-bottom: 4px solid lightblue;
-`;
+`
 
 const UL = styled.div`
   display: flex;
@@ -25,7 +24,7 @@ const UL = styled.div`
   &:hover {
     color: lightblue;
   }
-`;
+`
 
 const LI = styled.div`
   color: grey;
@@ -33,25 +32,29 @@ const LI = styled.div`
     color: lightblue;
     cursor: pointer;
   }
-`;
+`
 
 const Header = () => {
   return (
     <Container>
       <div>Steve & Tannir's</div>
-      <img src={arrowsign} width="400px" alt="sign" />
+      <img src={arrowsign} width='400px' alt='sign' />
 
       <nav>
         <UL>
-          <LI>HOME</LI>
-          <LI>FULL SERVICE</LI>
-          <LI>COMPLETE DETAIL</LI>
-          <LI>EXTERIOR DETAIL</LI>
-          <LI>INTERIOR DETAIL</LI>
+          <LI>
+            <a href='/'>HOME</a>
+          </LI>
+          <LI>
+            <a href='/about'>ABOUT US</a>
+          </LI>
+          <LI>
+            <a href='/services'>SERVICES</a>
+          </LI>
         </UL>
       </nav>
     </Container>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
