@@ -1,35 +1,36 @@
-import React from "react";
+import React from 'react'
 
-import "./App.css";
-import styled from "styled-components";
+import './App.css'
+import styled from 'styled-components'
 
-import truck from "./truck.jpg";
+import truck from './truck.jpg'
 
 const Info = styled.div`
   color: white;
   font-size: 1rem;
   text-align: center;
-`;
+`
 
 const ImageContainer = styled.li`
   display: flex;
   justify-content: center;
   padding-top: 30px;
   margin-bottom: 1rem;
-`;
+`
 
 const Image = styled.img`
   width: 800px;
   @media (max-width: 480px) {
     width: 200px;
+    height: auto;
   }
-`;
+`
 
 function App() {
   return (
     <div>
       <ImageContainer>
-        <Image src={truck} alt="sign" />
+        <Image src={truck} alt='sign' />
       </ImageContainer>
 
       <Info>Stop by, text or call!</Info>
@@ -38,7 +39,7 @@ function App() {
       <Info>Available 9-4 Monday thru Thursday</Info>
       <Info>We use Malco - The Choice of Profressionals</Info>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
