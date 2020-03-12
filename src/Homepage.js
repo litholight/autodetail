@@ -12,14 +12,19 @@ const Info = styled.div`
 `
 
 const ImageContainer = styled.li`
-  display: flex;
+  display: flexblock;
   justify-content: center;
   padding-top: 30px;
   margin-bottom: 1rem;
+  @media (max-width: 480px) {
+    width: 200px;
+    height: auto;
+  }
 `
 
 const Image = styled.img`
   width: 800px;
+  height: auto;
   @media (max-width: 480px) {
     width: 200px;
     height: auto;
