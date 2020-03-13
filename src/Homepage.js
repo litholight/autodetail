@@ -3,7 +3,7 @@ import React from 'react'
 import './App.css'
 import styled from 'styled-components'
 
-import truck from './truck.jpg'
+import truck from './atruck.jpg'
 
 const Info = styled.div`
   color: white;
@@ -11,24 +11,17 @@ const Info = styled.div`
   text-align: center;
 `
 
-const ImageContainer = styled.li`
-  display: flexblock;
-  justify-content: center;
+const ImageContainer = styled.div`
   padding-top: 30px;
-  margin-bottom: 1rem;
-  @media (max-width: 480px) {
-    width: 200px;
-    height: auto;
-  }
+  margin-bottom: 2rem;
 `
 
 const Image = styled.img`
-  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
   height: auto;
-  @media (max-width: 480px) {
-    width: 200px;
-    height: auto;
-  }
 `
 
 function App() {
@@ -41,8 +34,8 @@ function App() {
       <Info>Stop by, text or call!</Info>
       <Info>Tannir 740-343-5865</Info>
       <Info>Steve 740-221-5690</Info>
-      <Info>Available 9-4 Monday thru Thursday</Info>
-      <Info>We use Malco - The Choice of Profressionals</Info>
+      <br />
+      <Info>9AM-4PM Monday thru Thursday</Info>
     </div>
   )
 }

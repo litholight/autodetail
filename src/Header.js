@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 // import arrowsign from "./arrowsign.svg";
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const Container = styled.div`
   color: lightblue;
@@ -10,28 +10,28 @@ const Container = styled.div`
   font-weight: bold;
   text-align: center;
   width: 100%;
-  border-bottom: 6px solid darkred;
-`;
+`
 
 const Brand = styled.div`
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
-`;
+`
 
 const Heading = styled.div`
-  color: lightblue;
+  color: white;
+  font-size: 2.75rem;
   @media (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 200px;
   }
-`;
+`
 
 const HR = styled.hr`
-  border: 3px solid darkred;
-  width: 70%;
+  border: 3px solid darkgoldenrod;
+  width: 80%;
   margin: 0px auto;
-`;
+`
 
 const UL = styled.div`
   display: flex;
@@ -42,19 +42,19 @@ const UL = styled.div`
   color: grey;
   list-style-type: none;
   margin: 0.5rem;
-`;
+`
 
 const LI = styled.div`
   /* display: flex;
   align-items: center; */
   display: block;
-`;
+`
 
 const NavItem = styled(Link)`
   text-decoration: none;
 
   &:hover {
-    color: darkred;
+    color: darkgoldenrod;
     cursor: pointer;
   }
 
@@ -62,13 +62,13 @@ const NavItem = styled(Link)`
     font-size: 1rem;
     width: 200px;
   }
-`;
+`
 
 const Header = () => {
   return (
     <Container>
       <Brand>
-        <Heading>STEVE & TANNER'S COMPLETE AUTO DETAILING</Heading>
+        <Heading>STEVE & TANNIR'S COMPLETE AUTO DETAILING</Heading>
       </Brand>
 
       <HR />
@@ -77,18 +77,19 @@ const Header = () => {
       <nav>
         <UL>
           <LI>
-            <NavItem to="/">HOME</NavItem>
+            <NavItem to='/'>HOME</NavItem>
           </LI>
           <LI>
-            <NavItem to="/about">ABOUT US</NavItem>
+            <NavItem to='/about'>ABOUT US</NavItem>
           </LI>
           <LI>
-            <NavItem to="/services">SERVICES</NavItem>
+            <NavItem to='/services'>SERVICES</NavItem>
           </LI>
         </UL>
       </nav>
+      <HR />
     </Container>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
