@@ -22,7 +22,8 @@ function Services(props) {
       <Item>Wash</Item>
       <Item>Tires</Item>
       <Item>Shine</Item>
-      <Item>15 minutes</Item>
+      <Item>20 minutes</Item>
+      <Item>$20</Item>
       <Section>Complete Detail</Section>
       <Item>Includes full service wash</Item>
       <Item>Two coats of wax</Item>

@@ -77,13 +77,13 @@ const Header = () => {
       <nav>
         <UL>
           <LI>
-            <NavItem to='/'>HOME</NavItem>
+            <NavItem to='/autodetail'>HOME</NavItem>
           </LI>
           <LI>
-            <NavItem to='/about'>ABOUT US</NavItem>
+            <NavItem to='/autodetail/about'>ABOUT US</NavItem>
           </LI>
           <LI>
-            <NavItem to='/services'>SERVICES</NavItem>
+            <NavItem to='/autodetail/services'>SERVICES</NavItem>
           </LI>
         </UL>
       </nav>
