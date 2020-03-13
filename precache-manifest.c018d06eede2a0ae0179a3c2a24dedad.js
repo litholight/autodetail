@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5009b5e4b86183c644e46945c757a77",
+    "revision": "e6f419ec6b49cdc6a89131974bd344a5",
     "url": "/autodetail/index.html"
   },
   {
-    "revision": "90696a300dd4d182a445",
+    "revision": "b254b1ec39c5cc45593c",
     "url": "/autodetail/static/css/main.29fcdf74.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/autodetail/static/js/2.997717b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90696a300dd4d182a445",
-    "url": "/autodetail/static/js/main.10a6349e.chunk.js"
+    "revision": "b254b1ec39c5cc45593c",
+    "url": "/autodetail/static/js/main.d80e657e.chunk.js"
   },
   {
     "revision": "2dceb76cdccfae7516bc",
     "url": "/autodetail/static/js/runtime-main.a6774835.js"
   },
   {
-    "revision": "34c7b8879859ead783af32a1d9be89c9",
-    "url": "/autodetail/static/media/stevelogo.34c7b887.JPG"
+    "revision": "933a5177836e0df30f5890f658722b4f",
+    "url": "/autodetail/static/media/truck.933a5177.jpg"
   }
 ]);
