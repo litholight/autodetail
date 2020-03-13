@@ -35,7 +35,7 @@ function App() {
       <Info>Tannir 740-343-5865</Info>
       <Info>Steve 740-221-5690</Info>
       <br />
-      <Info>9AM-4PM Monday thru Thursday</Info>
+      <Info>By Appointment Only</Info>
     </div>
   )
 }
