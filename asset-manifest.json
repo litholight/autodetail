@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/autodetail/static/css/main.29fcdf74.chunk.css",
-    "main.js": "/autodetail/static/js/main.d80e657e.chunk.js",
-    "main.js.map": "/autodetail/static/js/main.d80e657e.chunk.js.map",
+    "main.js": "/autodetail/static/js/main.dca154e3.chunk.js",
+    "main.js.map": "/autodetail/static/js/main.dca154e3.chunk.js.map",
     "runtime-main.js": "/autodetail/static/js/runtime-main.a6774835.js",
     "runtime-main.js.map": "/autodetail/static/js/runtime-main.a6774835.js.map",
     "static/js/2.997717b8.chunk.js": "/autodetail/static/js/2.997717b8.chunk.js",
     "static/js/2.997717b8.chunk.js.map": "/autodetail/static/js/2.997717b8.chunk.js.map",
     "index.html": "/autodetail/index.html",
-    "precache-manifest.c018d06eede2a0ae0179a3c2a24dedad.js": "/autodetail/precache-manifest.c018d06eede2a0ae0179a3c2a24dedad.js",
+    "precache-manifest.da25eee7ca18c9a84f057e46c76d2b1d.js": "/autodetail/precache-manifest.da25eee7ca18c9a84f057e46c76d2b1d.js",
     "service-worker.js": "/autodetail/service-worker.js",
     "static/css/main.29fcdf74.chunk.css.map": "/autodetail/static/css/main.29fcdf74.chunk.css.map",
     "static/js/2.997717b8.chunk.js.LICENSE.txt": "/autodetail/static/js/2.997717b8.chunk.js.LICENSE.txt",
-    "static/media/truck.jpg": "/autodetail/static/media/truck.933a5177.jpg"
+    "static/media/atruck.jpg": "/autodetail/static/media/atruck.933a5177.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a6774835.js",
     "static/js/2.997717b8.chunk.js",
     "static/css/main.29fcdf74.chunk.css",
-    "static/js/main.d80e657e.chunk.js"
+    "static/js/main.dca154e3.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6f419ec6b49cdc6a89131974bd344a5",
+    "revision": "7af16f31a80486bb6fcd5e1f286d60d9",
     "url": "/autodetail/index.html"
   },
   {
-    "revision": "b254b1ec39c5cc45593c",
+    "revision": "9d0a04a212d7e4e06287",
     "url": "/autodetail/static/css/main.29fcdf74.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/autodetail/static/js/2.997717b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b254b1ec39c5cc45593c",
-    "url": "/autodetail/static/js/main.d80e657e.chunk.js"
+    "revision": "9d0a04a212d7e4e06287",
+    "url": "/autodetail/static/js/main.dca154e3.chunk.js"
   },
   {
     "revision": "2dceb76cdccfae7516bc",
@@ -25,6 +25,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "933a5177836e0df30f5890f658722b4f",
-    "url": "/autodetail/static/media/truck.933a5177.jpg"
+    "url": "/autodetail/static/media/atruck.933a5177.jpg"
   }
 ]);
